@@ -1,6 +1,7 @@
 const findTheOldest = function(people) {
 
    const holder = people.filter(people => !people.yearOfDeath) 
+   console.log(holder)
 
     // const currentDate = getFullYear();
 
@@ -12,7 +13,7 @@ const findTheOldest = function(people) {
 
     let janeBirth = 0;
 
-        let largest = 0;
+    let largest = 0;
 
 
     for(let i = 0; i < people.length - 1; i++){
